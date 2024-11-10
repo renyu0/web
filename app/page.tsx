@@ -16,15 +16,13 @@ export default function Home() {
   return (
     <div>
       <div style={box}>
-        <p>Probably Web</p>
+        Probably Web
       </div>
 
       <div style={defoult}>
         <p>
-          안녕!<br/>
-          여긴 내가 만들고 관리하는<br/>
-          어쩌고 저쩌고 하는 웹 사이트야
-          </p>
+          안녕!<br/>여긴 내가 만들고 관리하는<br/>어쩌고 저쩌고 하는 웹 사이트야!
+        </p>
       </div>
       
       <div style={box}>
