@@ -50,7 +50,6 @@ export default function Home() {
 
 type types = {
   name: string;
-  date: Date;
 }
 
 function MyButton(params: types) {
@@ -73,7 +72,7 @@ function MyButton(params: types) {
   );
 }
 
-function ShowHL(params: types) {
+function ShowHL() {
 
   return(
     <div
@@ -81,7 +80,6 @@ function ShowHL(params: types) {
       style={{backgroundColor: "rgb(203 213 225)"}}
     >
       <button>qwer
-        {/* {params.date.getDate()} */}
       </button>
     </div>
   );
