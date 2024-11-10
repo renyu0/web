@@ -53,7 +53,7 @@ type types = {
 }
 
 function MyButton(params: types) {
-  var box = {
+  const box = {
     'background-color': '#555',
     'padding': '0.2rem',
     'text-align': 'center',
